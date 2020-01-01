@@ -1,4 +1,4 @@
-# CPU Sceduler using MultiThreading
+# CPU Scheduler using MultiThreading
 
 ## Table of contents
 * [General info](#general-info)
