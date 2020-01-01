@@ -68,3 +68,11 @@ DRR performs better than RR
 ##### Comparison between FCFS and DRR
 DRR performs better than FCFS
 ![Alt Text](https://github.com/MuskanM1/CPU_Scheduler/blob/master/docs/Screenshots/4_FCFS_DRR.JPG)
+
+
+## Report Link
+https://drive.google.com/open?id=16BMRm3xcQWKWezno8RVzwSJd_2qD32Nz
+
+## Authors
+* Muskan Matwani (@MuskanM1)
+* Yesha Shastri
