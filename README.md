@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Usage](#usage)
-* [Flow](#flow)
+* [Summary](#Summary)
 * [Results](#Results)
 * [Report Link](#report-Link)
 * [Authors](#Authors)
@@ -51,7 +51,7 @@ fcfs.getAverageWaitingTime();
 fcfs.getResponseTime();  
 ```
 
-## Flow
+## Summary
 This project primarily creates instances of all the algorithms present - that are - FCFS, RR, and DRR. Then, it creates 3 separate threads - for making processes, long term scheduler and short term scheduler. First thread makes process with random parameters assigned to it such as arrival time and burst time. The `makeProcess` method adds this process into new queue. Then, `longTermScheduler` method extracts the processes residing inside new queue and adds them into ready queue one by one. If the ready queue size is full indicating in shortage of memory available, it adds that process into ready suspend queue. Also, each time a process is extracted from new queue, first thread is notified to fill in other processes into new queue. The `shortTermScheduler` method waits till there is at least one entry in the ready queue and then processes all the algorithms according to the processes present. Now RR, FCFS, and DRR are called and starts processing. As soon as there is an empty space in the ready queue caused by removal by short terms scheduler, processes in the ready suspend queue are added in the ready queue by the medium term scheduler. After processing, it displays Average waiting time, Average Turn Around time, Average response time and number of context switches of each algorithm. Additionally, it displays waiting time, turn around time and response time for each process in all algorithms. 
 
 ## Results
