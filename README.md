@@ -6,6 +6,9 @@
 * [Usage](#usage)
 * [Flow](#flow)
 * [Results](#Results)
+* [Report Link](#Report Link)
+* [Authors](#Authors)
+
 ## General info
 This project is Java implementation of 3 different scheudling algorithms - namely First Come First Serve (FCFS), Round Robin (RR) and Dynamic Round Robin (DRR). The processes are created randomly and processed by Long-term scheduler, Medium-term scheduler and Short-term scheduler using Multithreading. The performance is compared on the basis of certain criteria and displayed using GUI (Graphical User Interface).
 	
